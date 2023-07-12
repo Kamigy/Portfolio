@@ -50,7 +50,7 @@ body {
 .parallax-effect {
     position: static;
     height: 100vh;
-    background-image: url("./images/moi-min.JPG");
+    background-image: url("./images/moi.jpg");
     min-height: 300px;
     width: 100%;
     background-attachment: fixed;
