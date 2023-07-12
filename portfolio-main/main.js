@@ -50,7 +50,7 @@ const allParts = document.querySelector(".allParts");
 ///Random word variables
 const name = document.querySelector("#name");
 const nameLenght = name.innerText.length;
-const correctName = "Joyce WAGNER";
+const correctName = "Younes CHAOUKI";
 let posesToDo = [];
 let curNamePos = 0;
 let initialPosesToDoLenght = 0;
@@ -112,7 +112,7 @@ burgerMenuIcon.addEventListener("click", () =>{
 
       //Set href for each menu items
       if (element == "Download my resume") {
-        menuItemHref.setAttribute('href', './assets/Cv_Joyce_WAGNER.pdf');
+        menuItemHref.setAttribute('href', './assets/CV_Younes-Chaouki.pdf');
       } else {
         menuItemHref.setAttribute('href', '#'+element);
       }
@@ -120,8 +120,8 @@ burgerMenuIcon.addEventListener("click", () =>{
       //Smooth scroll
       menuItemHref.addEventListener('click', function (e) {
         e.preventDefault();
-        if (menuItemHref.getAttribute('href') == './assets/Cv_Joyce_WAGNER.pdf') {
-          window.location.href = "./assets/Cv_Joyce_WAGNER.pdf"
+        if (menuItemHref.getAttribute('href') == './assets/CV_Younes-Chaouki.pdf') {
+          window.location.href = "./assets/CV_Younes-Chaouki.pdf"
         }
         let element = document.getElementById((menuItemHref.getAttribute('href')).substr(1));
         //creating an anchor to consider menu height while scrolling
