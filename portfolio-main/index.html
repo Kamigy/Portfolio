@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyce WAGNER</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/37d6cc8149.js" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.0/circle-progress.min.js'></script>
+</head>
+<body>
+
+    <!--Custom cursor-->
+    <div class="cursor"></div>
+
+
+
+    <div class="parrallax-effect">
+        <div class="bg-text" id="myName">
+            <div class="menu-header">
+                <div class="burger-menu-icon" id="theRealMenuBurger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <h1><a href="http://www.joyce-wagner.fr" id="name">Joyce WAGNER</a></h1>
+                <div class="burger-menu-icon" class="hidden"></div>
+            </div>
+        </div>
+        
+        <!--TypeWritter-->
+        <div class="typing-container" id="typeWritting">
+            <span id="sentence" class="sentence">I am </span>
+            <span id="feature-text"></span>
+            <span class="input-cursor"></span>
+        </div>
+
+        <img src="https://pic.onlinewebfonts.com/svg/img_166255.png" alt="double_arrow_down" id="double-arrow-down">
+        <div class="parallax-effect blurry"></div>
+    </div>
+    <div class="allParts">
+        <div class="part AboutMe" id="About me">
+            <h1>About me</h1>
+            <p>
+                Hello! I am a french third-year computer science student.
+                <br> Specialized in backend, I can make efficient and working functionalities.
+                <br> Perservering against difficulties, I always find a way to make it, however I don't stay
+                stuck too long and don't hesitate to ask for help when needed.
+            </p>
+            
+            <br>
+            <h3>Job objective</h3>
+            <p>
+                I learn easily and I am versatile, I have strong skills in web and web app development, not to be outdone for database management
+                and mobile application development.
+                <br>I want to become a full stack web developer.
+            </p>
+
+            <br>
+            <br>
+            <h3>Education</h3>
+            <div class="education">
+                <div class="educationContainer">
+                    <p class="year">2023</p>
+                    <div class="educationDescription">
+                        <h5>1-YEAR UNIVERSITY DIPLOMA IN COMPUTER SCIENCE</h5>
+                        <p>
+                            2022 - 2023
+                            <br>
+                            Currently studying at the Gobelins campus of Annecy
+                        </p>
+                    </div>
+                    <img src="./images/papeteries.webp" alt="IUT Annecy">
+                </div>
+                <div class="educationContainer">
+                    <p class="year">2022</p>
+                    <div class="educationDescription">
+                        <h5>2-YEAR UNIVERSITY DIPLOMA IN COMPUTER SCIENCE</h5>
+                        <p>
+                            2020 - 2022
+                            <br>
+                            Delivered
+                        </p>
+                    </div>
+                    <img src="./images/iut-min.jpg" alt="IUT Annecy">
+                </div>
+                <div class="educationContainer">
+                    <p class="year">2019</p>
+                    <div class="educationDescription">
+                        <h5>FRENCH BACCALAUREATE SPECIALIZED IN SCIENCE AND COMPUTER ENGINEERING</h5>
+                        <p>
+                            2018 - 2020
+                            <br>
+                            Delivered with honors
+                        </p>
+                    </div>
+                    <img src="./images/lycee-min.jpg" alt="IUT Annecy">
+                </div>
+            </div>
+            
+            <br>
+            <div class="hobbies">
+                <div class="hobbiesContainer">
+                    <h3>My hobbies</h3>
+                    <div class="hobbyCard">
+                        <video src="./images/workout.mp4" type="video/mp4" muted loop></video>
+                        <h4>Workout</h4>
+                        <p class="hobbyDescription">I go to gym 3 times a week to keep my health at its maximum :D</p>
+
+                        <p class="videoAuthor">Video by Ketut Subiyanto from Pexels</p>
+                    </div>
+
+                    <div class="hobbyCard">
+                        <video src="./images/photography.mp4" type="video/mp4" muted loop></video>
+                        <h4>Photography</h4>
+                        <p class="hobbyDescription">
+                            I like photography, especially landscape photography. 
+                            <br> I post some of my photos on my instagram.
+                        </p>
+
+                        <p class="videoAuthor">Video by Athena from Pexels</p>
+                    </div>
+
+                    <div class="hobbyCard">
+                        <video src="./images/videogames.mp4" type="video/mp4" muted loop></video>
+                        <h4>Video Games</h4>
+                        <p class="hobbyDescription">
+                            I like to play some video games on my free time
+                        </p>
+
+                        <p class="videoAuthor">Video by RODNAE Productions from Pexels</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="part" id="My skills">
+            <h1>My skills</h1>
+            <div class="categoryContainer">
+                <p>Web :</p>
+                <div id="SkillsContainer">
+                    <div class="round"
+                        data-value="0.99"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fa fa-html5" aria-hidden="true"></i> HTML</span>
+                    </div>
+
+                    <div class="round"
+                        data-value="0.70"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fa fa-css3" aria-hidden="true"></i> CSS</span>
+                    </div>
+
+                    <div class="round"
+                        data-value="0.75"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fab fa-php" aria-hidden="true"></i> PHP</span>
+                    </div>
+
+                    <div class="round"
+                        data-value="0.88"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fab fa-js" aria-hidden="true"></i> JS</span>
+                    </div>
+
+                    <div class="round"
+                        data-value="0.70"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fab fa-vuejs" aria-hidden="true"></i> VueJS</span>
+                    </div>
+
+                    <div class="round"
+                        data-value="0.65"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fab fa-laravel" aria-hidden="true"></i> Laravel</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="categoryContainer">
+                <p>Mobile development :</p>
+                <div id="SkillsContainer">
+                    <div class="round"
+                        data-value="0.5"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fa fa-android" aria-hidden="true"></i> Kotlin</span>
+                    </div>
+
+                    <div class="round"
+                        data-value="0.5"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fa fa-android" aria-hidden="true"></i> Jetpack compose</span>
+                    </div>
+
+                    <div class="round"
+                        data-value="0.50"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fa fa-apple" aria-hidden="true"></i> SWIFT</span>
+                    </div>
+
+                    <div class="round"
+                        data-value="0.50"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fa fa-apple" aria-hidden="true"></i> SWIFT UI</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="categoryContainer">
+                <p>Software :</p>
+                <div id="SkillsContainer">
+                    <div class="round"
+                        data-value="0.50"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fa fa-code" aria-hidden="true"></i> C</span>
+                    </div>
+
+                    <div class="round"
+                        data-value="0.50"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fa fa-code" aria-hidden="true"></i> C++</span>
+                    </div>
+
+                    <div class="round"
+                        data-value="0.50"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fa fa-code" aria-hidden="true"></i> C#</span>
+                    </div>
+
+                    <div class="round"
+                        data-value="0.60"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fab fa-java" aria-hidden="true"></i> Java</span>
+                    </div>
+
+                    <div class="round"
+                        data-value="0.65"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fab fa-python" aria-hidden="true"></i> C#</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="categoryContainer">
+                <p>Database :</p>
+                <div id="SkillsContainer">
+                    <div class="round"
+                        data-value="0.80"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fas fa-database" aria-hidden="true"></i> SQL</span>
+                    </div>
+
+                    <div class="round"
+                        data-value="0.50"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fas fa-database" aria-hidden="true"></i> PL SQL</span>
+                    </div>
+                    
+                    <div class="round"
+                        data-value="0.50"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fas fa-database" aria-hidden="true"></i> Oracle</span>
+                    </div>
+
+                    <div class="round"
+                        data-value="0.50"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fas fa-database" aria-hidden="true"></i> Postgres SQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="categoryContainer">
+                <p>Operating Systems :</p>
+                <div id="SkillsContainer">
+                    <div class="round"
+                        data-value="0.50"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fab fa-windows" aria-hidden="true"></i> Windows / Batch</span>
+                    </div>
+
+                    <div class="round"
+                        data-value="0.60"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fab fa-linux" aria-hidden="true"></i> Linux / Bash</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="categoryContainer">
+                <p>Project management :</p>
+                <div id="SkillsContainer">
+                    <div class="round"
+                        data-value="0.50"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fa fa-project-diagram" aria-hidden="true"></i> UML</span>
+                    </div>
+
+                    <div class="round"
+                        data-value="0.50"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fa fa-project-diagram" aria-hidden="true"></i> MERISE</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="categoryContainer">
+                <p>CMS : </p>
+                <div id="SkillsContainer">
+                    <div class="round"
+                        data-value="0.55"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fab fa-wordpress" aria-hidden="true"></i> Wordpress</span>
+                    </div>
+
+                    <div class="round"
+                        data-value="0.55"
+                        data-size="200"
+                        data-thickness="6">
+                        <strong></strong>
+                        <span><i class="fas fa-laptop-code" aria-hidden="true"></i> Odoo</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="categoryContainer">
+                <p>Languages : </p>
+                <div id="SkillsContainer">
+                    <div class="round"
+                        id="french"
+                        data-value="1"
+                        data-size="200"
+                        data-thickness="100">
+                        <strong></strong>
+                        <span><i class="fas fa-globe-europe" aria-hidden="true"></i> French</span>
+                    </div>
+
+                    <div class="round"
+                        id="english"
+                        data-value="0.90"
+                        data-size="200"
+                        data-thickness="100">
+                        <strong></strong>
+                        <span><i class="fas fa-globe-americas" aria-hidden="true"></i> English</span>
+                    </div>
+
+                    <div class="round"
+                        id="german"
+                        data-value="0.60"
+                        data-size="200"
+                        data-thickness="100">
+                        <strong></strong>
+                        <span><i class="fas fa-globe-europe" aria-hidden="true"></i> German</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="part" id="Experiences">
+            <h1>Experiences</h1>
+            <div class="experiencesContainer">
+                <div class="experienceCard">
+                    <h2>Tobacco shop website</h2>
+                    <strong> September 2021 - March 2022 </strong>
+                    
+                    <p>
+                        University project for a real company where we created a website from scratch using VueJS and Laravel. <br>
+                        The website is a Click&Collect and showcase website where users can see a list of products and order them and
+                        collect them afterward on spot.
+                        You can browse this website at : <a href="https://lememphis-bellignat.fr/">lememphis-bellignat.fr</a>
+                    </p>
+                    <div class="experienceImage">
+                        <img src="./images/le-memphis-min.png" alt="">
+                    </div>
+                </div>
+                <div class="experienceCard">
+                    <h2>Volunteering</h2>
+                    <strong> April 2015 - April 2020 </strong>
+                    
+                    <p>
+                        Organizer during an event at a local public cultural center grouping board games, video games and some tournaments
+
+                    </p>
+                    <div class="experienceImage">
+                        <img src="./images/MJC.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="part" id="Projects">
+            <h1>Projects</h1>
+            <div class="projectsContainer">
+                <div class="projectBubble">
+                    <h6>Colin Of Duty</h6>
+                    <img src="./images/ColinOfDuty-min.png" alt="" srcset="">
+                    <div class="projectContent">
+                        <h4>Colin Of Duty</h4>
+                        <p>Colin Of Duty is a game where you play a high school teacher in a high school, one student made some cloning machines and now you need to destroy all of these machines</p>
+                        <div class="projectLink">
+                            <a href="https://github.com/Pordrack/ColinOfDuty" target="_blank" class="projectGithub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projectBubble">
+                    <h6>Portfolio</h6>
+                    <img src="./images/portfolio-min.png" alt="" srcset="">
+                    <div class="projectContent">
+                        <h4>Portfolio</h4>
+                        <p>You're on it! The portfolio I developped from scracth using HMTL CSS JS PHP</p>
+                        <div class="projectLink">
+                            <a href="https://github.com/jo15122002/jo15122002.github.io" target="_blank" class="projectGithub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projectBubble">
+                    <h6>Fnac</h6>
+                    <img src="./images/fnac-min.png" alt="" srcset="">
+                    <div class="projectContent">
+                        <h4>Fnac</h4>
+                        <p>University project based on the framework Laravel where we recreated some of the Fnac website's functionalities</p>
+                    </div>
+                </div>
+                <div class="projectBubble">
+                    <h6>Asylum</h6>
+                    <img src="./images/asylum-min.png" alt="" srcset="">
+                    <div class="projectContent">
+                        <h4>Asylum</h4>
+                        <p>Unity based team project, making a 3D game in 1 week. Using C#</p>
+                        <div class="projectLink">
+                            <a href="https://github.com/Reachip/Asylum" target="_blank" class="projectGithub"><i class="fab fa-github"></i></a>
+                            <a href="https://www.youtube.com/watch?v=Gt58jlQos6s" target="_blank" class="projectGithub"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projectBubble">
+                    <h6>Demactu</h6>
+                    <img src="./images/demactu-min.png" alt="" srcset="">
+                    <div class="projectContent">
+                        <h4>Demactu</h4>
+                        <p>Team project where we crated a small web forum where you can post news about technologies, games ect... We used HTML, CSS and PHP.</p>
+                        <div class="projectLink">
+                            <a href="https://github.com/Reachip/Demactu" target="_blank" class="projectGithub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projectBubble">
+                    <h6>A way out</h6>
+                    <img src="./images/a-way-out-min.png" alt="" srcset="">
+                    <div class="projectContent">
+                        <h4>A way out</h4>
+                        <p>Team project where we created a 2D game in 1 week using SFML, C++</p>
+                        <div class="projectLink">
+                            <a href="https://github.com/Reachip/CLoFan" target="_blank" class="projectGithub"><i class="fab fa-github"></i></a>
+                            <a href="https://www.youtube.com/watch?v=O4BY15FiPP8" target="_blank" class="projectGithub"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projectBubble">
+                    <h6>My first website</h6>
+                    <img src="./images/first_website-min.png" alt="" srcset="">
+                    <div class="projectContent">
+                        <h4>My first website</h4>
+                        <p>
+                            My god it's awful but hey, i was like 14 and I was starting to learn HTML. It was fun to me. <br>
+                            Also be careful with sound, a music start playing when you go on this website
+                        </p>
+                        <div class="projectLink">
+                            <a href="https://github.com/jo15122002/HTML_CSS_LEARNING" target="_blank" class="projectGithub"><i class="fab fa-github"></i></a>
+                            <a href="./assets/first_website/index.html" target="_blank" class="projectGithub"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="part" id="References">
+            <h1>References</h1>
+            <div class="referencesContainer">
+                <div class="referenceCard">
+                    <img src="./images/luc-damas-min.png" alt="" srcset="">
+                    <h6>Luc DAMAS</h6>
+                    <div class="referenceLinksContainer">
+                        <span><a href="mailto:luc.damas@iut.univ-smb.fr"><i class="fas fa-envelope" aria-hidden="true"></i> luc.damas@iut.univ-smb.fr</a></span>
+                        <span><a href="https://www.linkedin.com/in/luc-damas-0b67731/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i> luc-damas-0b67731</a></span>
+                        <span><a href="https://luc-damas.fr/" target="_blank"><i class="fas fa-globe" aria-hidden="true"></i> luc-damas.fr</a></span>
+                    </div>
+                </div>
+                
+                <div class="referenceCard">
+                    <img src="./images/stephanie-bouchon-min.png" alt="" srcset="">
+                    <h6>Stéphanie BOUCHON</h6>
+                    <div class="referenceLinksContainer">
+                        <span><a href="mailto:stephanie.bouchon@iut.univ-smb.fr"><i class="fas fa-envelope" aria-hidden="true"></i> stephanie.bouchon@iut.univ-smb.fr</a></span>
+                        <span><a href="https://www.linkedin.com/in/stephanie-bouchon-84988587/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i> stephanie-bouchon-84988587</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="part" id="Contact">
+            <h1>Contact</h1>
+
+            <h4>Send me a message :D</h4>
+            <form method="POST" action="mailer.php">
+                Name
+                <input type="text" name="name" size="30" value="" class="text-input" />
+                <br />
+                Email
+                <input type="text" name="email" id="email" size="30" value="" class="text-input" />
+                <br />
+                Your Message <br>
+                <textarea cols="25" rows="8" name="message" class="text-input"></textarea>
+                <br />
+                <input type="submit" value="Disabled for now" name="submit" class="button" id="submit_btn" disabled>
+                </form>
+            <h4>Find me elsewhere :</h4>
+            <div class="socialMedia">
+                <a href="mailto:wagnerjoyce1512@yahoo.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/joyce-wagner/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/joyce_wgn/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/jo15122002" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+
+        <p>&copy; WAGNER Joyce</p>
+        <div id="dinoGameContainer">
+            <p>I will do a game soon</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
